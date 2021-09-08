@@ -12,14 +12,14 @@ body {
     display: inline-block;
     font-size: 40px;
     margin-left: 20px;
-  
+    font-family:'Times New Roman', Times, serif;
 }
 
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 25px;
 }
 
@@ -37,38 +37,107 @@ body {
     text-decoration: none; 
 }
 
+.header a:hover {
+    background-color: burlywood;
+    }
+
 .christine {
     height: 500px;
     width: 100%;
-    margin: 25px;
     background-image: url("../images/online-reputation-management.jpg");
     background-size: cover;
-    background-position: center;
 }
 
-.section {
+.section p {
+    font-size: 20px;
+}
+
+.aboutme {
    
     padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rosybrown;
-    color: #ffffff;
+    max-height: auto;
     width: 100%;
-    display: inline-block;
-    margin: 50px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rosybrown;
+    color: black;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.aboutme h2 {
+    font-size: 35px;
+}
+
+
+.work {
+    padding: 50px;
+    max-height: auto;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rosybrown;
+    color: black;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.work h2 {
+    font-size: 35px;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none; 
+    color: #ffffff;
+}
+.project {
+    margin: 25px;
+    padding: 5px;
     
 }
 
-.section h2 {
-    font-size: 30px;
-    margin-left: 20px;
+.project img {
+    max-height: 75%;
+    max-width: 75%;
+    position: relative;
 }
 
-.section ul li {
-    list-style-type: none;
-    display:inline-block
-}
-.section article {
+.link {
+    color: #ffffff;
     font-size: 20px;
+}
+
+.project-detail {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.project:hover {
+transform: scale(1.2);
+}
+
+.contactme {
+   
+    padding: 50px;
+    max-height: auto;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rosybrown;
+    color: black;
+    width: 100%;
+    display: block;   
+    text-align: center;
+    margin-top: 25px;
+}
+
+.contactme h2 {
+    font-size: 35px;
+}
+
+.contactme ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 35px;
 }
 
